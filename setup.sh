@@ -13,6 +13,7 @@ sudo apt-get install git-lfs
 sudo -u ubuntu git lfs install --skip-smudge
 
 # download the SD model v2.1 and move it to the SD model directory
+cd ..
 sudo -u ubuntu git clone --depth 1 https://huggingface.co/stabilityai/stable-diffusion-2-1-base
 cd stable-diffusion-2-1-base/
 sudo -u ubuntu git lfs pull --include "v2-1_512-ema-pruned.ckpt"
