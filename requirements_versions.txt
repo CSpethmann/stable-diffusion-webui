@@ -26,3 +26,9 @@ inflection==0.5.1
 GitPython==3.1.27
 torchsde==0.2.5
 safetensors==0.2.5
+httpcore==0.15
+httpx==0.24.1
+torchmetrics==0.11.4
+fastapi==0.90.1
+pydantic==1.10.13
+
